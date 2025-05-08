@@ -1781,33 +1781,3 @@ h2 {
 	display: none;
 }
 }
-
-@media (max-width: 746px) {
-	.sixteen{
-		margin-left: 130px;
-	}
-	.teal {
-        left: 56%;
-    }
-	.of {
-        left: 38%;
-    }
-	.hrs {
-        margin-right: 90px;
-    }
-}
-
-@media (max-width: 300px) {
-	.sixteen{
-		margin-left: 45px;
-	}
-	.teal {
-        left: 56%;
-    }
-	.of {
-        left: 38%;
-    }
-	.hrs {
-        margin-right: 55px;
-    }
-}
