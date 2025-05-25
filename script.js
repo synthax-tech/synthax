@@ -4,11 +4,6 @@ var i;
 
 for (i = 0; i < faq.length; i++) {
   faq[i].addEventListener("click", function () {
-    /* Toggle between adding and removing the "active" class, to highlight the button that controls the panel */
-
-
-    /* Toggle between hiding and showing the active panel */
-
     var body = this.nextElementSibling;
 
     if (body.style.display === "block") {
@@ -46,7 +41,7 @@ const countdown = () => {
 
 window.onload = countdown;
 
-const timestamp = Date.now(); // or use a hardcoded version like 'v4'
+const timestamp = Date.now();
 
 const css = document.createElement("link");
 css.rel = "stylesheet";
@@ -73,3 +68,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Countdown Timer Script
+(function() {
+  const eventDate = new Date('2024-06-30T09:00:00');
+
+  function updateTimer() {
+    const now = new Date();
+    let diff = eventDate - now;
+    if (diff < 0) diff = 0;
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const mins = Math.floor((diff / (1000 * 60)) % 60);
+    const secs = Math.floor((diff / 1000) % 60);
+    document.getElementById('timer-days').textContent = days;
+    document.getElementById('timer-hours').textContent = hours.toString().padStart(2, '0');
+    document.getElementById('timer-mins').textContent = mins.toString().padStart(2, '0');
+    document.getElementById('timer-secs').textContent = secs.toString().padStart(2, '0');
+  }
+
+  updateTimer();
+  setInterval(updateTimer, 1000);
+})();
