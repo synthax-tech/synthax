@@ -251,11 +251,6 @@ h2 {
   text-align: center;
 }
 
-.themes-inner h1,
-.themes-inner h2,
-.theme-card h3 {
-  color: #00e0d3; /* Headings color */
-}
 
 .themes-grid {
   display: grid;
@@ -374,6 +369,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding-top: 5rem;
 }
 
 .lower .sponsor-text-left {
@@ -978,6 +974,7 @@ h2 {
 	left: 50%;
 	transform: translateX(-50%);
 	font-size: 2rem;
+	white-space: nowrap;
 }
 
 .prizes {
@@ -1355,15 +1352,14 @@ white-space: nowrap;
 	.about {
 		padding-top: 6rem;
 		padding-bottom: 3rem;
-		padding-top: 18.9rem;
 	}
 
-	.about h1 {
+	.about h1 ,.themes-inner h1{
 		font-size: 2.5rem;
 		margin-bottom: 0.5rem;
 	}
 
-	.about h2 {
+	.about h2 ,.themes-inner h2{
 		font-size: 1.2rem;
 		margin-bottom: 1.5rem;
 	}
@@ -2031,7 +2027,6 @@ html {
 }
 
 .hero {
-    min-height: 70vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -2043,6 +2038,7 @@ html {
     overflow: hidden;
     position: relative;
     z-index: 1;
+	margin-bottom: 2rem;
 }
 
 .glitch-wrapper {
@@ -2091,7 +2087,6 @@ html {
 /* Responsive breakpoints */
 @media (min-width: 1440px) {
     .hero {
-        min-height: 70vh;
         padding: 3rem;
     }
     
@@ -2121,7 +2116,6 @@ html {
 
 @media (max-width: 768px) {
     .hero {
-        min-height: 85vh;
         padding: 1rem;
     }
     
@@ -2187,10 +2181,10 @@ html {
 
 
 @media (max-width: 580px) {
-  .month {
-    font-size: 2rem;
-    margin-top: 23px;
-    margin-right: 0px;
+  .date-range {
+    color: white;
+    font-size: 4rem;
+    margin-right: 55px;
   }
    .date-range {
       color: white;
@@ -2199,3 +2193,4 @@ html {
       margin-right: 43px;
     }
 }
+
