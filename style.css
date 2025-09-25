@@ -876,20 +876,20 @@ h2 {
 
 .date-range {
 	color: #ffffff;
-	font-size: 2.5rem;
+	font-size: 4rem;
 	position: absolute;
 	top: 20px;
 	right: 0;
 	margin-top: 10px;
-	margin-right: 35px;
+	margin-right: 55px;
 }
 
 .month {
 	color: #ffffff;
-	font-size: 4rem;
+	font-size: 2.5rem;
 	position: absolute;
-	top: 70px;
-	right: 50px;
+	top: 100px;
+	right: 90px;
 	margin-right: 10px;
 }
 
@@ -1467,14 +1467,14 @@ white-space: nowrap;
 
 	.date-range {
         color: white;
-        font-size: 2rem;
+        font-size: 3rem;
         margin-top: 50px;
         margin-right: 10px;
 	}
 
 	.month {
 		color: #43f2e4;
-        font-size: 3rem;
+        font-size: 2rem;
         margin-top: 60px;
         margin-right: -20px;
 	}
@@ -1685,13 +1685,14 @@ white-space: nowrap;
 		font-size: 1.3rem;
 	}
 	.date-range{
-		font-size: 1.9rem;
+		font-size: 4rem;
+		top:0.5px;
 		right: -25px;
 	}
 	.month{
-		top: 60px;
-		right: 15px;
-		font-size: 3rem;
+		top: 90px;
+		right: 60px;
+		font-size: 2rem;
 	}
 	.workshops{
 		font-size: 2.5rem;
@@ -1778,16 +1779,16 @@ white-space: nowrap;
 	
 }
 
-@media (min-width: 580px) and (max-width: 766px) {
+@media (min-width: 580px) and (max-width: 810px) {
     .date-range {
-        margin-top: 5%;
-        margin-right: 10%;
-		font-size: 3rem;
+        margin-top: -0.1%;
+        margin-right: 20%;
+		font-size: 5rem;
     }
 	.month{
-        margin-top: 7%;
-        margin-right: 7%;
 		font-size: 4rem;
+		margin-bottom: 900%;
+		margin-right: 10%;
 	}
 
 	
