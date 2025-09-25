@@ -1465,19 +1465,19 @@ white-space: nowrap;
 		margin-right: auto;
 	}
 
-	.date-range {
-        color: white;
-        font-size: 3rem;
-        margin-top: 50px;
-        margin-right: 10px;
-	}
+  .date-range {
+    color: white;
+    font-size: 5rem;
+    margin-top: 5px;
+    margin-right: 110px;
+  }
 
-	.month {
-		color: #43f2e4;
-        font-size: 2rem;
-        margin-top: 60px;
-        margin-right: -20px;
-	}
+  .month {
+    font-size: 3rem;
+    margin-top: 24px;
+    margin-right: 63px;
+  }
+
 	.box3{
 		display: none;
 	}
@@ -1685,15 +1685,15 @@ white-space: nowrap;
 		font-size: 1.3rem;
 	}
 	.date-range{
-		font-size: 4rem;
-		top:0.5px;
+		font-size: xxx-large;
+		top:10px;
 		right: -25px;
 	}
-	.month{
-		top: 90px;
-		right: 60px;
-		font-size: 2rem;
-	}
+  .month {
+    top: 83px;
+    right: 47px;
+    font-size: xx-large;
+  }
 	.workshops{
 		font-size: 2.5rem;
 	}
@@ -1755,14 +1755,22 @@ white-space: nowrap;
 	}
 	}
 
-@media (max-width: 450px) {
+@media (max-width: 475px) {
 	.glitch-wrapper h2 {
 		font-size: 1rem;
 	}
-	.event-date , .event-day , .day{
+	.event-date , .event-day , .day ,.tier-tagline{
 		display: none;
 	}	  
-	  
+	    .month {
+    margin-top: 23px;
+    margin-right: 0px;
+  }
+   .date-range {
+
+      margin-top: 24px;
+      margin-right: 43px;
+    }
 
 		}
 
@@ -1779,17 +1787,17 @@ white-space: nowrap;
 	
 }
 
-@media (min-width: 580px) and (max-width: 810px) {
+@media (min-width: 580px) and (max-width: 760px) {
     .date-range {
-        margin-top: -0.1%;
-        margin-right: 20%;
-		font-size: 5rem;
+	margin-top: 8.5%;
+    margin-right: 15%;
+    font-size: xxx-large;
     }
-	.month{
-		font-size: 4rem;
-		margin-bottom: 900%;
-		margin-right: 10%;
-	}
+  .month {
+    top: 55%;
+    right: 35px;
+    font-size: xx-large;
+  }
 
 	
 }
@@ -2177,3 +2185,17 @@ html {
 }
 
 
+
+@media (max-width: 580px) {
+  .month {
+    font-size: 2rem;
+    margin-top: 23px;
+    margin-right: 0px;
+  }
+   .date-range {
+      color: white;
+      font-size: 4rem;
+      margin-top: 24px;
+      margin-right: 43px;
+    }
+}

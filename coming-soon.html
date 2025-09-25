@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon - Synthax</title>
+    <link rel="icon" href="favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+	<style>
+		/* Page-specific sizing to keep the glitch text fitting nicely */
+		.glitch.coming-soon { font-size: clamp(2rem, 10vw, 6rem); }
+		/* Ensure comfortable spacing on very small screens */
+		@media (max-width: 480px) {
+			.glitch-wrapper { gap: 0.75rem; padding: 0 1rem; }
+		}
+	</style>
+</head>
+<body>
+    <header class="navbar">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <nav id="nav-links">
+            <a href="index.html#about">About</a>
+            <a href="index.html#themes">Themes</a>
+            <a href="index.html#sponsors">Sponsors</a>
+            <a href="index.html#faq">FAQs</a>
+        </nav>
+        <a href="coming-soon.html" class="register">Register</a>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+    </header>
+
+    <main class="hero" style="min-height: 70vh">
+		<div class="glitch-wrapper">
+			<h1 class="glitch coming-soon" data-text="COMING SOON">COMING SOON</h1>
+            <h2 class="tagline">Big things are on the way. Stay tuned.</h2>
+        </div>
+    </main>
+
+    <section class="footer-section">
+        <div class="footer-dark">
+            <div class="footer-deco">
+                <span></span><span class="star">✦</span><span></span><span class="star">✦</span><span></span>
+            </div>
+            <h2 class="footer-title">Join the<br />Revolution</h2>
+            <div class="footer-buttons">
+                <a href="coming-soon.html" class="btn-filled">I'm in. Let's Hack</a>
+                <a href="index.html#faq" class="btn-outline">CONTACT US</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="#" class="footer-link">Socials</a>
+            <a href="https://www.instagram.com/synthax25" class="footer-link" target="_blank" rel="noopener" aria-label="Instagram" style="margin-left:10px;display:inline-flex;align-items:center;gap:6px">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                </svg>
+                <span>@synthax25</span>
+            </a>
+            <a href="#" class="footer-link right">PRIVACY AND POLICY</a>
+        </div>
+    </section>
+
+    <script defer src="script.js"></script>
+</body>
+</html>
+
