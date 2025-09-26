@@ -152,7 +152,6 @@ h1, h2, h3 {
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 5rem 10vw;
-	padding-top: 6rem;
 	margin-top: 2rem;
 	color: white;
 	background-color: black;
@@ -631,7 +630,6 @@ h2 {
 	padding: 50px 20px;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 12rem;
 	position: relative;
 	z-index: 1;
 }
@@ -1352,7 +1350,6 @@ white-space: nowrap;
 
 @media (max-width: 768px) {
 	.about {
-		padding-top: 6rem;
 		padding-bottom: 3rem;
 	}
 
@@ -2087,7 +2084,7 @@ html {
 /* Responsive breakpoints */
 @media (min-width: 1440px) {
     .hero {
-        padding: 3rem;
+        padding: 5rem;
     }
     
     .glitch-wrapper {
@@ -2117,6 +2114,7 @@ html {
 @media (max-width: 768px) {
     .hero {
         padding: 1rem;
+		padding-top: 7rem;	
     }
     
     .glitch-wrapper {
