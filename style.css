@@ -613,6 +613,8 @@ h2 {
 	padding: 1rem 2rem;
 	color: #43f2e4;
 	font-size: 0.95rem;
+	align-items: center;
+	text-align: center;
 }
 
 .footer-link {
@@ -1560,6 +1562,7 @@ white-space: nowrap;
 		padding: 1rem;
 		font-size: 0.85rem;
 		text-align: center;
+		align-items: center;
 	}
 
 	.footer-link.right {
