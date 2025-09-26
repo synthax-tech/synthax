@@ -1751,21 +1751,20 @@ white-space: nowrap;
 	}
 	}
 
-@media (max-width: 475px) {
+@media (max-width: 521px) {
 	.glitch-wrapper h2 {
 		font-size: 1rem;
 	}
 	.event-date , .event-day , .day ,.tier-tagline{
 		display: none;
 	}	  
-	    .month {
-    margin-top: 23px;
-    margin-right: 0px;
+  .month {
+    margin-top: -11px;
+    margin-right: 68px;
   }
    .date-range {
-
-      margin-top: 24px;
-      margin-right: 43px;
+     margin-top:2px;;
+    margin-right: 125px;
     }
 
 		}
@@ -1785,8 +1784,6 @@ white-space: nowrap;
 
 @media (min-width: 580px) and (max-width: 760px) {
     .date-range {
-	margin-top: 8.5%;
-    margin-right: 15%;
     font-size: xxx-large;
     }
   .month {
@@ -2184,13 +2181,10 @@ html {
   .date-range {
     color: white;
     font-size: 4rem;
-    margin-right: 55px;
   }
    .date-range {
       color: white;
       font-size: 4rem;
-      margin-top: 24px;
-      margin-right: 43px;
     }
 }
 
