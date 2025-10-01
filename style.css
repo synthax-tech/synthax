@@ -342,6 +342,7 @@ h2 {
 .logo-gold{width:200px;height:130px}
 .logo-silver{width:160px;height:110px}
 .logo-bronze{width:150px;height:110px}
+.logo-venue{width:280px;height:180px}
 
 .sponsor-text-right,
 .sponsor-text-left {
@@ -423,6 +424,15 @@ h2 {
   flex-wrap: wrap;
   margin-top: 1rem;
 }
+/* side line used in zigzag groups */
+.side-line{display:none}
+
+/* Larger cards for venue and hosting */
+.tier-large{padding:2.5rem 2.5rem}
+.tier-large .tier-logos{gap:1.5rem}
+.tier-large .logo-image{transform:scale(1.05)}
+/* Make venue card a bit shorter */
+.tier-venue{padding-top:1.5rem;padding-bottom:1.5rem}
 /* .logo-image{width:200px;height:120px;object-fit:contain;background:transparent;border-radius:0;padding:0} */
 
 .tier-tagline {
@@ -819,6 +829,7 @@ h2 {
 	padding: 10px;
 	box-sizing: border-box;
 }
+.map-embed{position:absolute;inset:10px;border-radius:1rem;overflow:hidden}
 
 .event-date {
 	width: 140px;
