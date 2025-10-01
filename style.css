@@ -910,6 +910,7 @@ h2 {
 	text-align: center;
 	color: #ffffff;
 	font-size: 2.5rem;
+	font-weight: 800;
 }
 
 .code-block {
@@ -925,6 +926,7 @@ h2 {
 	color: transparent;
 	-webkit-text-stroke: 1px cyan;
 	text-stroke: 1px cyan;
+	font-weight: 850;
 }
 
 .sixteen {
