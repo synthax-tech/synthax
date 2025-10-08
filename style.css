@@ -1115,6 +1115,7 @@ white-space: nowrap;
 	box-shadow: 0 4px 12px rgba(67, 242, 228, 0.2);
 }
 
+
 @keyframes noise-before {
 	0% {
 		clip: rect(61px,9999px,52px,0);
@@ -1912,7 +1913,7 @@ html {
     background: rgba(0,0,0,0.6);
     backdrop-filter: blur(100px);
     transition: all 0.3s ease;
-    max-width: 600px;
+    max-width: 650px;
     margin: 40px auto;
     padding: 8px 20px;
     display: flex;
