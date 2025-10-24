@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Countdown Timer Script
 (function() {
-  const eventDate = new Date('2025-11-15T00:00:00');
+  const eventDate = new Date('2025-11-22T00:00:00');
 
   function updateTimer() {
     const now = new Date();
