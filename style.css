@@ -993,6 +993,7 @@ h2 {
 .prizes {
   border-radius: 0px 0px 30px 30px;
   background: #000;
+  height: 75px;
   width: 90%; /* or any relative width you want */
   aspect-ratio: 4 / 1; /* maintains width:height ratio of 3:1 */
   position: absolute;
@@ -2202,4 +2203,3 @@ html {
       font-size: 4rem;
     }
 }
-
